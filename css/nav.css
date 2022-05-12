@@ -1,0 +1,65 @@
+nav{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* BARRA NAV */
+#menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+    display: inline-table;
+    /* background: linear-gradient(180deg,rgba(255,255,255,0), rgb(96, 96, 96, 0.5)); */
+    height: 160px;
+}
+.menu{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 200;
+}
+
+.menu li{
+    padding: 0px 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+}
+.menu a:hover{
+    font-weight: 700;
+}
+
+#logo{
+    float: left;
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    left: 100px;
+}
+#logo img{
+    width: 80px;
+}
+.fondoSinBlur{
+    position: fixed;
+    top: -90px;
+    width: 130%;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+}
+.fondoBlur{
+    position: fixed;
+    top: -20px;
+    left: -150px;
+    width: 3000px;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+    filter: blur(20px);
+}

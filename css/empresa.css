@@ -1,0 +1,124 @@
+h2{
+    font-size: 52px;
+    color: white;
+}
+p{
+    font-size: 24px;
+    color: white;
+}
+.c-home{
+    background: #F4F3F3;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.c-imagen{
+    margin-top: 50px;
+    background: url(../img/cabeceraEmpresa.jpg) no-repeat top center;
+    background-size: 100%;
+    height: 50vh;
+    z-index: 99;
+}
+.c-tamanio{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.textoCabecera{
+    margin-top: -120px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.textoCabecera h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 90px;
+}
+#tamanio{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.descripcion{
+    margin: 100px 0;
+    color: white;
+}
+.colIzq{
+    float: left;
+    margin-left: 100px;
+}
+
+.colDer{
+    float: right;
+    margin-right: 110px;
+}
+
+.quienSomos{
+    max-width: 500px;
+    margin-top: 100px;
+}
+
+#persona{
+    position: relative;
+    top: -75px;
+    left: 150px;
+    border: 5px solid black;
+}
+
+#valores{
+    margin: 40px 0px;
+    display: flex;
+    float: left;
+}
+.row{
+    width: 40%;
+    margin-left: 100px;
+    float:left;
+}
+#imgValor1{
+    width: 400px;
+    margin: 0 !important;
+}
+.v-centrar{
+    display: flex;
+    justify-content: center;
+}
+.numeroValoresBlur{
+    font-size: 70px;
+    margin-left: -50px;
+    filter: blur(8px);
+}
+.numeroValores{
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+#productos{
+    width: 100%;
+    clear: both;
+    display: flex;
+}
+.productos-img{
+    width: 100%;
+    height: 300px;
+    background: url(../img/receta.jpg) no-repeat top center;
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+.productos-img a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 35%;
+    font-size: 40px;
+}
+.productos-img:hover{
+    filter: grayscale(0%);
+    transition: ease-in-out 0.2s;
+}
